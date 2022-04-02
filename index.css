@@ -1,5 +1,18 @@
-.home-logo {
-    margin-left: -7rem;
+.home-logo1 {
+    width: 250px;
+    height: 125px;
+    margin-top: 1rem;
+}
+
+.home-logo2 {
+    width: 350px;
+    height: 125px;
+    margin-left: -5rem;
+}
+
+.home-logo3 {
+    height: 125px;
+    width: 150px;
 }
 
 .iit-logo {
@@ -288,16 +301,34 @@
     height: 175px;
 }
 
+.research1-image {
+    width: 100%;
+    height: auto;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
 
-    #home header img {
+    /* #home header img {
         width: 100px;
         height: auto;
+    } */
+
+    .home-logo1 {
+        width: 100px;
+        height: 50px;
+        margin-top: 0;
     }
 
-    .home-logo {
+    .home-logo2 {
+        width: 100px;
+        height: 40px;
         margin-left: 0;
+    }
+
+    .home-logo3 {
+        height: 50px;
+        width: 70px;
     }
 
     .Quote-img {
